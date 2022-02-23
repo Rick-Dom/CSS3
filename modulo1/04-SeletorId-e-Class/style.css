@@ -1,0 +1,15 @@
+.texto-principal{
+    color: red;
+    text-align: center;
+}
+
+.fundo-principal{
+    background-color: greenyellow; 
+    padding: 20px;
+}
+
+#conteudo{
+    background-color: rgb(109, 22, 196);
+    padding: 20px;
+    color: aliceblue;
+}
