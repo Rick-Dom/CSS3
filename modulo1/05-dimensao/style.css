@@ -1,0 +1,14 @@
+#conteudo{
+    background-color: rgb(60, 97, 4);
+    color: aliceblue;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 300px;
+    max-height: 150px;
+    min-width: 100;
+}
+
+/* 
+nós podemos trabalhar usando porcentagem
+e também com tamnhos maximos e minimos
+*/
