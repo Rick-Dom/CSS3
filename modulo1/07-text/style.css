@@ -1,0 +1,56 @@
+p{
+    /*define a cor do nosso texto*/
+    color: blueviolet;
+    /*
+    brincar com as letras com 
+    uppercase (deixa maiusculo)
+    lowercase (deixa tudo minusculo)
+    capitilize (apenas a primeira letra de cada palavra fica maiscula)
+    */
+    text-transform: uppercase;
+    /*alinhamento do texto*/
+    text-align: justify;
+    /*cria um recuo na primeia linha*/
+    text-indent: 20px;
+    /*define a altura das linhas*/
+    line-height: 25px;
+    /*
+    definir a direção do texto
+    rtl = right to left
+    ltr left to right (padrao)
+    */
+    direction:  rtl;
+    /*espaçamento entre as letras*/
+    letter-spacing: 2px;
+    /*espaçamento entre as palavras*/
+    word-spacing: 4px;
+}
+
+h1{
+    /*define a posição do texto*/
+    text-align: right;
+    /*adicoina uma decoração ao texto*/
+    text-decoration: underline;
+    /*
+    uma sombra no texto
+    1 - posição horizontal
+    2 - posição vertical
+    3 - desfoque 
+    4 - cor da sombra
+    */
+    text-shadow: 3px 3px 6px red;
+}
+
+h2{
+    /*define a posição do texto*/
+    text-align: left;
+    text-decoration: overline;
+}
+
+h3{
+    /*define a posição do texto*/
+    text-align: center;
+    text-decoration: line-through;
+}
+
+/*para tirar essa linha usamos o como valor o none*/
