@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#conteudo{
+    background-color: rgb(255, 138, 138);
+    width: 300px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px black;  
+}
+
+/*
+    o border sizing impede que a div aumente de tamanho por
+    conta do padding
+*/
