@@ -1,0 +1,10 @@
+#bloco{
+    background-color: aquamarine;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px 50px 100px 30px;
+}
+
+/*lembrando que se for adicionando diferentes valores,
+seguir o sentido horario
+*/
