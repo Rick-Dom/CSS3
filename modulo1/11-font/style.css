@@ -1,0 +1,26 @@
+p{
+    /*derfine um conjunto de fontes que vai ser
+    utilizado pelo navegador. Definimos familia de fontes
+    especificas e uma familia generica
+    */
+    
+    font-family: Times, "Times New Roman", serif;
+    
+    /*
+    temos dois valores
+    font-variant: normal;
+    font-variant: small-caps;
+    */
+
+    /*negrito*/
+    font-weight: bold;
+
+    /*temos tres valores
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+    */
+
+    font-size: 40px;
+
+}
