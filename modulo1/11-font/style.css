@@ -11,9 +11,7 @@ p{
     */
     
 
-    
-    font-family: open-sans;
-
+    font-family: 'Roboto', sans-serif;
    
     /*
     temos dois valores
@@ -34,3 +32,4 @@ p{
     font-size: 1em;
 
 }
+
