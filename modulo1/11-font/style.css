@@ -1,11 +1,20 @@
+/*para colocar uma font que baixamos*/
+@font-face {
+    font-family: open_sans;
+    src: url(opensans-semibold-webfont.woff);
+}
+
 p{
     /*derfine um conjunto de fontes que vai ser
     utilizado pelo navegador. Definimos familia de fontes
     especificas e uma familia generica
     */
     
-    font-family: Times, "Times New Roman", serif;
+
     
+    font-family: open-sans;
+
+   
     /*
     temos dois valores
     font-variant: normal;
@@ -21,6 +30,7 @@ p{
     font-style: oblique;
     */
 
-    font-size: 40px;
+    /* 1em = 16px9*/
+    font-size: 1em;
 
 }
