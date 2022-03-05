@@ -1,15 +1,35 @@
 #cores{
     width: 300px;
     height: 150px;
-    background-color: rgba(230, 89, 225, 0.5);
+    background: linear-gradient(to right, rgba(255,0,0,0),blue, purple);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#radial{
+    width: 300px;
+    height: 150px;
+    background: radial-gradient(red, yellow);
     padding: 20px;
     box-sizing: border-box;
 }
 
 /*
+temos o linear e radial
+a diferença é que a base é sempre o centro
+
+
+definimos a direção do gradiente com "to posição de direção"
+ou podemos usar angulos
+*/
+
+/*
 podemos definir uma cor pelo nome ou hexadecimal ou
-com o RGB, onde também podemos colocar a opacidade, com esta no exemplo acima
+com o RGB 
 background-color: rgb(230, 89, 225)
+
+onde também podemos colocar a opacidade, com esta no exemplo acima
+background-color: rgba(230, 89, 225, 0.5);
 
 também podemos definir pelo hsl
 hsl(20, 100%, 59%)
