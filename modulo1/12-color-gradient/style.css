@@ -1,0 +1,17 @@
+#cores{
+    width: 300px;
+    height: 150px;
+    background-color: rgba(230, 89, 225, 0.5);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*
+podemos definir uma cor pelo nome ou hexadecimal ou
+com o RGB, onde também podemos colocar a opacidade, com esta no exemplo acima
+background-color: rgb(230, 89, 225)
+
+também podemos definir pelo hsl
+hsl(20, 100%, 59%)
+
+*/
