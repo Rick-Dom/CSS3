@@ -1,0 +1,31 @@
+#exemplo{
+  
+    /*
+    estilos de borda
+    temos os seguintes estilos:
+    dotted
+    dasheed
+    solid (mais utilizado)
+    double
+    groove
+    ridge 
+    inset
+    outset
+
+    podemos definir os lados individuais
+    */
+
+    border: solid 5px red; 
+
+    /*
+    outline é muito parecido, a diferença é que ele
+    coloca uma linha externa e nao trabalha com lados individuais
+
+    */
+
+    outline: dotted 5px green;
+    
+
+
+
+}

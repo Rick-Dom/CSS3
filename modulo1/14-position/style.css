@@ -1,0 +1,32 @@
+#conteudo{
+    width: 600px;
+    height: 1200px; 
+    background-color: red;
+    position: relative;
+}
+
+#texto{
+    width: 500px;
+    background-color: green;
+    color: aliceblue;
+    position: absolute;
+    left: 20px; 
+    top: 40px;
+}
+
+/*
+
+o padrao do position é o static
+absolute: permite que coloquemos o elemento em qualquer lugar da página
+para isso usamos as coordenadas. Exemplo:
+left: 0; top: 0;
+right: 0; bottom: 0;
+
+para que ele se posissione de acordo com a div pai, declaramos ela como
+position relative
+
+toda coordenada x,y começa do canto superior esquerdo da tela
+
+o ultima é o fixed, que fica fico em uma parte da tela
+
+*/
