@@ -1,0 +1,40 @@
+#exemplo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /*resumimos essas tres dessa maneira (propriedade estenografica)*/
+    transition: all 1s ease;
+
+    /*para colocar mais coisa, adicone uma virgula depois do delay*/
+
+    /*
+    o que vai ser modificado
+    transition-property: width;
+
+    o tempo da transição
+    transition-duration: 2s;
+
+    temos como definir a velocidade que a transição começa
+    ease comece lenta-rapida-elnta
+    ease-in inicia lenta 
+    ease-out termina lenta
+    ease-in-out se inicie lenta e termina lenta
+    linear mesma velocidade do inicio ao fim
+    transition-timing-function: linear;
+
+    */  
+}
+
+/*
+pseudo classe houver
+controla o estado do elemnto quando passa o mous
+por cima
+*/
+
+#exemplo:hover{
+    width: 350px;
+    height: 350px;
+    background-color: green;
+}
+
+/* o transiotion serve para sauavizar a mudança de estado*/
