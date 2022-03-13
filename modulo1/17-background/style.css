@@ -1,0 +1,34 @@
+body{
+     
+    /*background-color: aquamarine; */
+
+    background-image: url(img/uzui.jpg);
+
+    /*caso ela repita, podemos usar o */
+
+    background-repeat: no-repeat;
+
+    /*posição da imagem
+    left
+    right
+    center
+    left top/center/bottom
+    right top top/center/bottom
+
+    background-position: ...;
+    */
+
+    /*fica fixo*/
+    background-attachment: fixed;
+
+    /*tamanho*/
+    background-size: 500px 300px;
+
+    /*propriedade estenografica
+    background:url(img/uzui.png)center center/500px 300px no-repeat fized;
+    */
+}
+
+p{
+    color: azure;
+}
