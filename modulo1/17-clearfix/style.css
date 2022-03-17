@@ -1,0 +1,40 @@
+.container{
+    background-color: red;
+    width: 500px;
+    /*concertamos com o atributo margin, que deixa ela centralizada,
+    mas desaparece*/
+    margin: 0 auto;
+}
+
+.box1{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.box2{
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    float: right;
+}
+
+
+/*aribuimos o clear em uma pseudoclasse dessa menira*/
+/*o before e o after permitem que adicionamos conteudo
+ao nosso documento diretamente do css*/
+.container::before, .container::after{
+ content: '';
+ display: table;
+}
+
+.container::after{
+    clear: both;
+}
+
+/*uma forma mais inteligente de se utilizar o clear fix*/
+
+/*só preciamos utilizar o clearfix se criarmos um layout utilizando float*/
+
+/*se usarmos um framework ou o flexbox para box para o layout nao precisamos usar*/
