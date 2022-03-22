@@ -1,0 +1,30 @@
+:root {
+    /*aqui voce vai colocando o nome das suas variavies, qual vc quiser*/
+    --bg-color: blue;
+    --cor-do-texto: #fff;
+    --espacamento: 20:px;
+    --borda: 1px solid red;
+}
+
+#div1{
+    /*assim chamamos a variavel definia em root*/
+    background-color: var(--bg-color);
+    color: var(--cor-do-texto);
+    padding: var(--espacamento);
+    border: var(--borda);
+}
+
+#div2{
+    /*assim chamamos a variavel definia em root*/
+    background-color: var(--bg-color);
+    color: var(--cor-do-texto);
+    padding: var(--espacamento);
+}
+
+
+#div3{
+    /*assim chamamos a variavel definia em root*/
+    background-color: var(--bg-color);
+    color: var(--cor-do-texto);
+    padding: var(--espacamento);
+}
