@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(81, 81, 255);
+}
+
+button{
+    background-color: white;
+    color: rgb(173, 75, 75);
+    width: 100px;
+    height: 50px;
+    border: 2px solid currentColor;
+}
+
+/*ele facilida se tivermos uma cor hexadecimal*/
