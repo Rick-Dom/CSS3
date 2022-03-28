@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Normalize ou reset CSS?</title>
+    <!--link fonts google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="texto">
+        <h1>Normalize e reset css</h1>
+    <p>
+        Os problemas surgem por conta dos navegadores,pois algumas propriedades
+        css sao renderzadas de maneira difrente entre elas. E para resolver isso
+        surgiu o reset css que nada mais é do que uma tecnica para padronizar a visualização das 
+        paginas.<br><br>
+        De certa forma acabamos zerando as propriedades de modo em que elas serão renderizadas
+        da mesma forma nos diversos navegarores, nós resetamos essas propriedades reescrendo-as. 
+        <br><br>
+        O normalize tem a mesma função, mas podemos que disser que é mais moderno
+        e faz ainda mais coisas, dando mais consistência e fazer com que essas propriedades
+        se comportem de forma mais normalizada nos navegadores
+        <br><br>
+        Chamamos ele antes do nosso arquivo css que vamos estilizar
+        e também podemos usar pelo cdn copiando e importando diretamente da web
+        <h2>Mas qual devo utilizar?</h2>
+    </p>
+
+    <p>
+        Se voce quiser apenas normalizar a renderização desse elementos utilize o normalize.<br><br>
+        Mas se voce for criar um projeto, e sabe que vai ter muitas costumizações dos elementos e deseja ter
+        controle sobre eles crie o seu proprio reset. Quando mais simples melhor!<br><br>
+        Uma opção mais simples, por exemplo, seria:<br><br>
+        *{margin: 0;padding: 0; border: 0;}
+        <br>
+        a{text-decoration: none;}
+        <br>
+        ul{list-style: none;}
+    </p>
+    </div>
+    
+</body>
+</html>

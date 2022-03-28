@@ -1,0 +1,16 @@
+
+#texto{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 575px;
+    height: 400px;
+    overflow: auto;
+    background-color: rgb(182, 182, 179);
+    padding: 10px;
+    filter: drop-shadow( 5px 5px 5px #3a3a3a);
+    /*box-shadow: 10px 10px 25px rgb(92, 88, 88);*/
+}
+
+p, h1, h2{
+    font-family: 'Roboto', sans-serif;
+}
