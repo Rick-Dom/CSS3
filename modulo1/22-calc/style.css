@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100vw;
+    height: 80px;
+    background-color: blue;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100vw;
+    /*ele subtrai as distancias para que nao crie scroll bar*/ 
+    height: calc(100vh - 80px);
+    background-color: red;
+}
+
+p{
+    padding: 15px; 
+    color: aliceblue;
+}
