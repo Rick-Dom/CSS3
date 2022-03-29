@@ -1,0 +1,38 @@
+img{
+    margin: 40px 0 0 60px;
+    width: 55%;
+    transition: all 0.5s ease;
+}
+
+img:hover{
+   /*cria uma sombra fodaaaa*/
+   filter: drop-shadow( 7px 7px 6px #3a3a3a);
+   width: 60%;
+
+
+
+}
+
+/*
+temos varios tipos de filter
+para desfocar
+filter: blur(4px);
+
+para dar brilho
+filter:brightness(50%);
+
+contraste
+filter: contrast(150%);
+
+para pssar tons de cinza
+filter: grayscale(50%);
+
+inverter
+filter: invert(0%);
+
+trasparencia
+filter: opacity(50%);
+
+saturaçãoi
+   filter: saturate(60%);
+*/
