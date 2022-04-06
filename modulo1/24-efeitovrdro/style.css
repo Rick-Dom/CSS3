@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/4736683-abstract-black-background-with-hexagon-shape-and-deep-shadow-and-texture-luxury-background-concept-apropriado-for-various-background-design-template-banner-poster-apresentacao-etc-vetor.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner{
+    width: 300px;
+    height: 250px;
+    
+    /*centralizando*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 150px;
+    border-radius: 20px;
+
+    /*efeito vidro*/
+    background: rgba(206, 194, 194, 0.1);
+    backdrop-filter: blur( 6px);
+    -webkit-backdrop-filter: blur(15px);
+
+}
+
+p{
+    font-size: 50px;
+    color: aliceblue;
+}
+
+
+
