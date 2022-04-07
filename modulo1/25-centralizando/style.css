@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*personalizando a scrollbar*/
+::-webkit-scrollbar{
+    width: 10PX;
+}
+
+::-webkit-scrollbar-track{
+    background: #000000;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #424040;
+    border-radius: 30px;
+}
+
+
+
+body{
+    background-color: rgb(37, 37, 37);
+   
+    /*centralizando*/
+    display: grid;
+    place-items: center;
+}
+
+
+.conteudo{
+    width: 350px;
+    height: 250px;
+    background-color: grey;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-top: 40%;
+    margin-bottom: 40%;
+    
+  
+}
+
+p{
+    margin-top: 35px;
+    text-indent: 15px;
+    text-align: justify;
+}
+
+
+
+
+/*
+
+maneiras de centralizar o conteudo
+
+MARGIN 0 AUTO
+
+.classe{
+    width: 100px;
+    margin: 0 auto;
+}
+
+DISPLAY FLEX
+
+.elemento-pai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+DISPLAY GRID
+
+.elemento-pai{
+    display: grid;
+    place-items: center;
+}
+
+*/
